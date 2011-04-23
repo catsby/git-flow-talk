@@ -5,10 +5,10 @@ model" by Vincent Driessen][2]
 If you want to see it, you need to install showoff and then run
 it in this directory:
 
-  $ gem install showoff
-  $ git clone git://github.com/ctshryock/git-flow-talk.git
-  $ cd git-flow-talk
-  $ showoff serve
+    $ gem install showoff
+    $ git clone git://github.com/ctshryock/git-flow-talk.git
+    $ cd git-flow-talk
+    $ showoff serve
 
 Then you should be able to go to http://localhost:9090 to view the
 presentation.
