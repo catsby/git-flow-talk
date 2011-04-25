@@ -13,5 +13,14 @@ it in this directory:
 Then you should be able to go to http://localhost:9090 to view the
 presentation.
 
+##TOC
+
+1. Introduction
+2. The Main Branches
+3. Feature Branches
+4. Release Branches
+5. Hotfix branches
+6. References
+
 [1]: https://github.com/nvie/gitflow
 [2]: http://nvie.com/posts/a-successful-git-branching-model/
