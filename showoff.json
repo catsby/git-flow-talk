@@ -1,7 +1,7 @@
 { 
   "name": "Git-Flow", 
   "sections": [
-      {"section":"one"},
+      {"section":"intro"},
       {"section":"end"}
    ]
 }

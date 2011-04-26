@@ -17,3 +17,7 @@ repository operations that work according to **Vincent Driessen's branching mode
 This branching model is widely in use among **teams using git** <br />
 as their means of source control, and **serve as a guide** to <br />
 developing software in a **managed fashion.**
+
+!SLIDE center
+
+# I'm the Map! #
