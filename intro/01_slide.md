@@ -21,3 +21,5 @@ developing software in a **managed fashion.**
 !SLIDE center
 
 # I'm the Map! #
+
+![I'm the Map!](git_branching_model.png)
