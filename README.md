@@ -1,4 +1,4 @@
-This is a ShowOff presentation (http://github.com/schacon/showoff) on
+This is a [ShowOff][3] presentation on
 using [git-flow][1] and following the ["A successful Git branching
 model" by Vincent Driessen][2]
 
@@ -13,6 +13,18 @@ it in this directory:
 Then you should be able to go to http://localhost:9090 to view the
 presentation.
 
+#Using Git-Flow
+
+[Git-flow][1] is a set of git extensions which provide high-level repository operations that work according to [Vincent Driessen's][2] branching model.  
+This branching model is widely in use among teams using git as their
+means of source control, and serve as a guide to developing software in
+a managed fashion.  
+
+This presentation is broken into parts; a brief introduction, the main
+branches, the supporting branches, and then some demo / references.
+
+Estimated time: 5-7 minutes
+
 ##TOC
 
 1. Introduction
@@ -24,3 +36,4 @@ presentation.
 
 [1]: https://github.com/nvie/gitflow
 [2]: http://nvie.com/posts/a-successful-git-branching-model/
+[3]: http://github.com/schacon/showoff
