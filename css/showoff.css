@@ -29,6 +29,7 @@
       font-size:14px;
       position:relative;
       top:-24px;
+      z-index: 16;
       margin:0 auto;
       -webkit-border-top-left-radius: 3px;
       -webkit-border-top-right-radius: 3px;
@@ -36,7 +37,6 @@
       -moz-border-radius-topright: 3px;
       border-top-left-radius: 3px;
       border-top-right-radius: 3px;
-      z-index: 2147483647; /* max, see http://www.puidokas.com/max-z-index/ */
   }
 }
 
@@ -166,7 +166,6 @@ pre { margin-left: 40px; font-size: 2.8em; }
 .buttonNav { display: none }
 .offscreen { position:absolute; top:0; left:-9999px; overflow:hidden; }
 #debugInfo { margin-left: 30px; }
-#notesInfo { margin-left: 30px; display: none }
 #preshow { display: none; }
 
 #help {
@@ -174,7 +173,7 @@ pre { margin-left: 40px; font-size: 2.8em; }
     position: absolute;
     right: 80px;
     display: none;
-    z-index: 2147483647; /* max, see http://www.puidokas.com/max-z-index/ */
+    z-index: 2147483647; //max, see http://www.puidokas.com/max-z-index/
 }
 #help table tr td.key {
     text-align: right;
@@ -184,7 +183,7 @@ pre { margin-left: 40px; font-size: 2.8em; }
 }
 
 .fg-menu-container {
-    z-index: 2147483647; /* max, see http://www.puidokas.com/max-z-index/ */
+    z-index: 2147483647; //max, see http://www.puidokas.com/max-z-index/
 }
 
 .fg-button { clear:left; margin:0 4px 40px 20px; padding: .4em 1em; text-decoration:none !important; cursor:pointer; position: relative; text-align: center; zoom: 1; }
@@ -195,13 +194,7 @@ a.fg-button { float:left; }
 
 .fg-button.ui-state-loading .ui-icon { background: url(spinner_bar.gif) no-repeat 0 0; }
 
-#navmenu { 
-  position: absolute; 
-  top: 10px; 
-  left: 10px; 
-  width: 50px; 
-  z-index: 2147483647; /* max, see http://www.puidokas.com/max-z-index/ */
-}
+#navmenu { position: absolute; top: 10px; left: 10px; width: 50px; z-index: 16; }
 
 .code .c { color: #999988; font-style: italic } /* Comment */
 .code .err { color: #a61717; background-color: #e3d2d2 } /* Error */
@@ -274,7 +267,7 @@ a.fg-button { float:left; }
   padding:15px;
   margin:0px;
   font-family: monospace;
-  z-index: 2147483647; /* max, see http://www.puidokas.com/max-z-index/ */
+  z-index: 2147483647; //max, see http://www.puidokas.com/max-z-index/
 }
 
 .executing {
@@ -291,7 +284,7 @@ a.fg-button { float:left; }
   position: fixed;
   padding:25px;
   margin:0px;
-  z-index: 2147483647; /* max, see http://www.puidokas.com/max-z-index/ */
+  z-index: 2147483647; //max, see http://www.puidokas.com/max-z-index/
 }
 
 #tips {
