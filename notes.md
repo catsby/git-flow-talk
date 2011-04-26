@@ -9,10 +9,21 @@
 **Intro:**  
 
 - Central "truth" repo
+- Display image
 - Developers can all have their own remotes, or share branches on the
   origin
+
+**Main branches**
+
 - **Master** reflects *production-ready* code
 - Every push to master condsidered a new release
 - **Develop** reflects on-going development, for the next release, also
   called the *Integration Branch*
 - **Develop** is where nightly builds come from
+- When **Develop** is stable enough for a release, we make our way down
+  to **Master**
+
+**Supporting Branches**
+
+- **Feature, Release, Hotfix**
+- Special only in a policy sense; still just git branches
