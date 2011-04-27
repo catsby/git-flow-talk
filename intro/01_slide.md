@@ -3,7 +3,14 @@
 
 *"A successful Git branching model"*
 
-!SLIDE transition=scrollLeft center
+!SLIDE transition=scrollLeft center 
+
+# Introduction #
+
+**Git-flow** is a set of git **extensions** which provide high-level<br />
+repository operations that work according to **Vincent Driessen's branching model.**
+
+!SLIDE center 
 
 # Introduction #
 
@@ -12,7 +19,16 @@ repository operations that work according to **Vincent Driessen's branching mode
 
 *-translation-*
 
-There is order still in the DVCS chaos
+!SLIDE center
+
+# Introduction #
+
+**Git-flow** is a set of git **extensions** which provide high-level<br />
+repository operations that work according to **Vincent Driessen's branching model.**
+
+*-translation-*
+
+There is order still in all this DVCS chaos
 
 !SLIDE center
 
@@ -23,7 +39,7 @@ as their means of source control, and **serve as a guide** to <br />
 developing software in a **managed fashion.**
 
 
-!SLIDE smbullets incremental truths-slide
+!SLIDE smbullets incremental pretty-uls 
 # Truths #
 
 * Git is **decentralized**
@@ -38,3 +54,14 @@ developing software in a **managed fashion.**
 # I'm the Map! #
 
 ![I'm the Map!](git_branching_model.png)
+
+!SLIDE center
+
+# Friends! #
+
+![I've got Friends!](centr-decentr.png)
+
+!SLIDE center
+# Friends with Branches! #
+
+![I've got Branches!](branches.png)
