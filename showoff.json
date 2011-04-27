@@ -3,6 +3,7 @@
   "sections": [
       {"section":"intro"},
       {"section":"main"},
+      {"section":"demos"},
       {"section":"end"}
    ]
 }

@@ -35,7 +35,7 @@ There is order still in all this DVCS chaos
 # Introduction #
 
 This branching model is widely in use among **teams using git** <br />
-as their means of source control, and **serve as a guide** to <br />
+as their means of source control, and **serves as a guide** to <br />
 developing software in a **managed fashion.**
 
 
