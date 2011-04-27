@@ -3,12 +3,16 @@
 
 *"A successful Git branching model"*
 
-!SLIDE transition=scrollLeft center
+!SLIDE transition=scrollLeft center incremental
 
 # Introduction #
 
 **Git-flow** is a set of git **extensions** which provide high-level<br />
 repository operations that work according to **Vincent Driessen's branching model.**
+
+*-translation-*
+
+There is order still in the DVCS chaos
 
 !SLIDE center
 

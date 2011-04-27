@@ -10,6 +10,10 @@
 **Git-flow** is a set of git **extensions** which provide high-level<br />
 repository operations that work according to **Vincent Driessen's branching model.**
 
+*-translation-*
+
+There is order still in the DVCS chaos
+
 !SLIDE center
 
 # Introduction #
@@ -17,6 +21,17 @@ repository operations that work according to **Vincent Driessen's branching mode
 This branching model is widely in use among **teams using git** <br />
 as their means of source control, and **serve as a guide** to <br />
 developing software in a **managed fashion.**
+
+
+!SLIDE smbullets incremental truths-slide
+# Truths #
+
+* Git is **decentralized**
+* When working as a team, have a **central "truth" repo** 
+* Everyone **pushes** and **pulls** from the **origin**
+* Can also pull from **peers**
+* Or just use **branches** on the origin
+
 
 !SLIDE center
 

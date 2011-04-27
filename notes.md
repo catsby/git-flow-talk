@@ -20,7 +20,7 @@
 - **Develop** reflects on-going development, for the next release, also
   called the *Integration Branch*
 - **Develop** is where nightly builds come from
-- When **Develop** is stable enough for a release, we make our way down
+- When **Develop** is stable nough for a release, we make our way down
   to **Master**
 
 **Supporting Branches**
