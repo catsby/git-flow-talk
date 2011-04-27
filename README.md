@@ -1,3 +1,5 @@
+v1.0
+
 This is a [ShowOff][3] presentation on
 using [git-flow][1] and following the ["A successful Git branching
 model" by Vincent Driessen][2]
