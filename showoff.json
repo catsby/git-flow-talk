@@ -1,1 +1,9 @@
-{ "name": "My Preso", "sections": [ {"section":"one"} ]}
+{ 
+  "name": "Git-Flow", 
+  "sections": [
+      {"section":"intro"},
+      {"section":"main"},
+      {"section":"demos"},
+      {"section":"end"}
+   ]
+}
