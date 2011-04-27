@@ -1,0 +1,15 @@
+/* @override http://localhost:9090/file/style.css */
+.truths-slide {
+	text-align: left;
+}
+
+.truths-slide ul {
+	list-style: disc;
+	padding-left: 80px;
+	list-style-type: disc;
+	list-style-position: outside;
+}
+
+.truths-slide ul li {
+	text-align: left;
+}
