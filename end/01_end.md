@@ -1,8 +1,7 @@
-!SLIDE center
+!SLIDE ship-it
 # End #
 
 Clint Shryock (@ctshryock)
 
 clint@ctshryock.com
 
-![Ship It!](ship_it_squirrel.png)

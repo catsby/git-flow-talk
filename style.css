@@ -13,3 +13,20 @@
 .pretty-uls ul li {
 	text-align: left;
 }
+
+.ship-it.content::after {
+      position: absolute;
+      right: 15px;
+      bottom: 200px;
+      content: url(end/ship_it_squirrel.png);
+}
+
+.ship-it h1 {
+	position: absolute;
+    top: 160px;
+    left: 15px
+}
+
+.ship-it {
+	padding: 15px;
+}
