@@ -1,15 +1,15 @@
 /* @override http://localhost:9090/file/style.css */
-.truths-slide {
+.pretty-uls {
 	text-align: left;
 }
 
-.truths-slide ul {
+.pretty-uls ul {
 	list-style: disc;
 	padding-left: 80px;
 	list-style-type: disc;
 	list-style-position: outside;
 }
 
-.truths-slide ul li {
+.pretty-uls ul li {
 	text-align: left;
 }

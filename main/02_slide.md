@@ -1,23 +1,13 @@
-!SLIDE center
+!SLIDE 
 # Main Branches #
 
-*"A successful Git branching model"*
+!SLIDE center bullets pretty-uls
+# Master#
 
-!SLIDE transition=scrollLeft center incremental
+- reflects **production ready** code
+- Every push to master is considered **a new release**
 
-# Introduction #
+!SLIDE center bullets pretty-uls
+# Develop #
 
-**Git-flow** is a set of git **extensions** which provide high-level<br />
-repository operations that work according to **Vincent Driessen's branching model.**
-
-*-translation-*
-
-There is order still in the DVCS chaos
-
-!SLIDE center
-
-# Introduction #
-
-This branching model is widely in use among **teams using git** <br />
-as their means of source control, and **serve as a guide** to <br />
-developing software in a **managed fashion.**
+!SLIDE transition=scrollLeft center
