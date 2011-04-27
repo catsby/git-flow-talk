@@ -28,6 +28,8 @@
   <link type="text/css" href="./css/sh_style.css" rel="stylesheet" >
 
   
+    <link rel="stylesheet" href="file/style.css" type="text/css"/>
+  
 
   
 
@@ -72,30 +74,169 @@
 <div class="slide" data-transition="none"><div class="content center" ref="intro/01_slide/1">
 <h1>Git-Flow</h1>
 
-<p><em>"A successful Git branching model"</em></p></div>
+<p><em>"A successful Git branching model"</em></p>
+</div>
 </div><div class="slide" data-transition="scrollLeft"><div class="content center" ref="intro/01_slide/2">
 <h1>Introduction</h1>
 
 <p><strong>Git-flow</strong> is a set of git <strong>extensions</strong> which provide high-level<br/>
-repository operations that work according to <strong>Vincent Driessen's branching model.</strong></p></div>
+repository operations that work according to <strong>Vincent Driessen's branching model.</strong></p>
+</div>
 </div><div class="slide" data-transition="none"><div class="content center" ref="intro/01_slide/3">
+<h1>Introduction</h1>
+
+<p><strong>Git-flow</strong> is a set of git <strong>extensions</strong> which provide high-level<br/>
+repository operations that work according to <strong>Vincent Driessen's branching model.</strong></p>
+
+<p><em>-translation-</em></p>
+</div>
+</div><div class="slide" data-transition="none"><div class="content center" ref="intro/01_slide/4">
+<h1>Introduction</h1>
+
+<p><strong>Git-flow</strong> is a set of git <strong>extensions</strong> which provide high-level<br/>
+repository operations that work according to <strong>Vincent Driessen's branching model.</strong></p>
+
+<p><em>-translation-</em></p>
+
+<p>There is order still in all this DVCS chaos</p>
+</div>
+</div><div class="slide" data-transition="none"><div class="content center" ref="intro/01_slide/5">
 <h1>Introduction</h1>
 
 <p>This branching model is widely in use among <strong>teams using git</strong> <br/>
 as their means of source control, and <strong>serve as a guide</strong> to <br/>
-developing software in a <strong>managed fashion.</strong></p></div>
-</div><div class="slide" data-transition="none"><div class="content center" ref="intro/01_slide/4">
+developing software in a <strong>managed fashion.</strong></p>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental pretty-uls" ref="intro/01_slide/6">
+<h1>Truths</h1>
+
+<ul>
+<li>Git is <strong>decentralized</strong></li>
+<li>When working as a team, have a <strong>central "truth" repo</strong></li>
+<li>Everyone <strong>pushes</strong> and <strong>pulls</strong> from the <strong>origin</strong></li>
+<li>Can also pull from <strong>peers</strong></li>
+<li>Or just use <strong>branches</strong> on the origin</li>
+</ul>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="content center" ref="intro/01_slide/7">
 <h1>I'm the Map!</h1>
 
-<p><img src="file:///Users/clint/Projects/ctshryock/git-flow-talk/intro/git_branching_model.png" width="451" height="600" alt="I'm the Map!"/></p></div>
-</div><div class="slide" data-transition="none"><div class="content center" ref="end/01_end">
+<p><img src="file:///Users/clint/Projects/ctshryock/git-flow-talk/intro/git_branching_model.png" width="451" height="600" alt="I'm the Map!"/></p>
+</div>
+</div><div class="slide" data-transition="none"><div class="content center" ref="intro/01_slide/8">
+<h1>Friends!</h1>
+
+<p><img src="file:///Users/clint/Projects/ctshryock/git-flow-talk/intro/centr-decentr.png" width="478" height="356" alt="I've got Friends!"/></p>
+</div>
+</div><div class="slide" data-transition="none"><div class="content center" ref="intro/01_slide/9">
+<h1>Friends with Branches!</h1>
+
+<p><img src="file:///Users/clint/Projects/ctshryock/git-flow-talk/intro/branches.png" width="921" height="188" alt="I've got Branches!"/></p>
+</div>
+</div><div class="slide" data-transition="none"><div class="content center bullets" ref="main/02_slide">
+<h1>Main Branches</h1>
+
+<ul>
+<li>Origins and integrations, ho!</li>
+</ul>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="content center bullets pretty-uls incremental" ref="main/03_master/1">
+<h1>Master</h1>
+
+<ul>
+<li>Reflects <strong>production ready</strong> code</li>
+<li>Every push to master is considered <strong>a new release</strong></li>
+<li>Respect ma'h <strong>authorita'h</strong></li>
+</ul>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="content center" ref="main/03_master/2">
+<h1>I'm the Map!</h1>
+
+<p><img src="file:///Users/clint/Projects/ctshryock/git-flow-talk/main/git_branching_model.png" width="451" height="600" alt="I'm the Map!"/></p>
+</div>
+</div><div class="slide" data-transition="none"><div class="content center bullets pretty-uls incremental" ref="main/04_develop/1">
+<h1>Develop</h1>
+
+<ul>
+<li>Reflects <strong>on-going development</strong> for the <strong>next release</strong></li>
+<li>Often called the <strong>Integration Branch</strong></li>
+<li>This is where <strong>nightly builds</strong> come from</li>
+<li>When <strong>Develop</strong> is <strong>stable</strong> enough for a release, we make our way
+down to <strong>Master</strong></li>
+</ul>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="content center" ref="main/04_develop/2">
+<h1>I'm the Map!</h1>
+
+<p><img src="file:///Users/clint/Projects/ctshryock/git-flow-talk/main/git_branching_model.png" width="451" height="600" alt="I'm the Map!"/></p>
+</div>
+</div><div class="slide" data-transition="none"><div class="content center bullets" ref="main/05_supporting">
+<h1>Supporting Branches</h1>
+
+<ul>
+<li>Features, Releases, Hotfixes, oh my!</li>
+</ul>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="content center bullets pretty-uls incremental" ref="main/06_features/1">
+<h1>Features</h1>
+
+<ul>
+<li>Branch from <strong>Develop</strong></li>
+<li>Merge into <strong>Develop</strong> (--no-ff)</li>
+<li>Naming convention: <strong>feature/a-cool-feature</strong></li>
+<li><strong>New hotness</strong> for an <strong>upcomming release</strong></li>
+</ul>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="content center" ref="main/06_features/2">
+<h1>I'm the Map!</h1>
+
+<p><img src="file:///Users/clint/Projects/ctshryock/git-flow-talk/main/git_branching_model.png" width="451" height="600" alt="I'm the Map!"/></p>
+</div>
+</div><div class="slide" data-transition="none"><div class="content center bullets pretty-uls incremental" ref="main/07_release/1">
+<h1>Releases</h1>
+
+<ul>
+<li>Branch from <strong>Develop</strong></li>
+<li>Merge into <strong>Develop</strong> and <strong>Master</strong></li>
+<li>Naming convention: <strong>release-x.y.z</strong></li>
+<li>Last minute updates <strong>before</strong> a new <strong>release</strong></li>
+</ul>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="content center" ref="main/07_release/2">
+<h1>I'm the Map!</h1>
+
+<p><img src="file:///Users/clint/Projects/ctshryock/git-flow-talk/main/git_branching_model.png" width="451" height="600" alt="I'm the Map!"/></p>
+</div>
+</div><div class="slide" data-transition="none"><div class="content center bullets pretty-uls incremental" ref="main/08_hotfix/1">
+<h1>Hotfixes</h1>
+
+<ul>
+<li>Branch from <strong>Master</strong></li>
+<li>Merge into <strong>Develop</strong> and <strong>Master</strong></li>
+<li>Naming convention: <strong>hotfix-omfg-how-did-this-happen</strong></li>
+<li>Need to fix <strong>production,</strong> <strong><em>now</em></strong></li>
+</ul>
+
+</div>
+</div><div class="slide" data-transition="none"><div class="content center" ref="main/08_hotfix/2">
+<h1>I'm the Map!</h1>
+
+<p><img src="file:///Users/clint/Projects/ctshryock/git-flow-talk/main/git_branching_model.png" width="451" height="600" alt="I'm the Map!"/></p>
+</div>
+</div><div class="slide" data-transition="none"><div class="content ship-it" ref="end/01_end">
 <h1>End</h1>
 
 <p>Clint Shryock (@ctshryock)</p>
 
 <p>clint@ctshryock.com</p>
-
-<p><img src="file:///Users/clint/Projects/ctshryock/git-flow-talk/end/ship_it_squirrel.png" width="493" height="370" alt="Ship It!"/></p></div>
+</div>
 </div>
 </div>
 
