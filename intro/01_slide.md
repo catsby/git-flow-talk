@@ -39,7 +39,7 @@ as their means of source control, and **serve as a guide** to <br />
 developing software in a **managed fashion.**
 
 
-!SLIDE smbullets incremental pretty-uls 
+!SLIDE bullets incremental pretty-uls 
 # Truths #
 
 * Git is **decentralized**
